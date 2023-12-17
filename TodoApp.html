@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        input{
+            height: 40px;
+            width: 150px;
+            margin: 10px;
+        }
+        button{
+            width: 70px;
+            height: 50px;
+            border-radius: 10px;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-heading">Todo App</h1>
+  
+     <input id="todo-input" type="text" placeholder="Enter TODO here">
+     <button onclick="addTodo();
+          displayItems();
+     ">Add</button>
+
+     <p id="todo-items" > </p>
+     
+   <script src="TodoApp.js"></script> 
+</body>
+</html>
